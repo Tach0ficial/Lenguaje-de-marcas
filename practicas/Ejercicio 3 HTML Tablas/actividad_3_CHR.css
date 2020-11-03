@@ -1,0 +1,21 @@
+body{
+    margin:auto;
+    font-family: Calibri;
+    padding-left: 20%;
+    padding-right: 20%;;
+    
+}
+
+
+.centrado{
+    text-align: center;
+    margin-bottom:8%;
+}
+.indice{
+    align-self:;
+    
+}
+
+.table{
+    background:#F0F3F4;
+}
