@@ -39,7 +39,7 @@
     width: 40%;
     margin: 2%;
     position: absolute;
-    top: 0px;
+    top: 15%;
     right: 0px;
 }
 .caja5{
@@ -50,7 +50,7 @@
     width: 40%;
     margin: 2%;
     position: absolute;
-    top: 0px;
+    top: 35%;
     right: 0px;
 }
 .caja6{
@@ -61,7 +61,7 @@
     width: 40%;
     margin: 2%;
     position: absolute;
-    top: 0px;
+    top: 65%;
     right: 0px;
 }
 pre{
