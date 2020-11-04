@@ -64,6 +64,14 @@
     top: 65%;
     right: 0px;
 }
+.derecha{
+    width: 40%;
+    margin: 2%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
 pre{
     border: 1.5px solid blue;
     background-color: white;
