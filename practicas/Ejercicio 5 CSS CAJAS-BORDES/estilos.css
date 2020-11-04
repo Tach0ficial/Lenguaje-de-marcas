@@ -25,52 +25,36 @@
     border: black 12px solid;
     border-image-source: url("img/bola-100.png");
     text-align: justify;
-    width: 40%;
     margin: 2%;
-    position: absolute;
-    top: 0px;
-    margin-top: 35px;
-    right: 0px;
+
 }
 .caja4{
     border: silver 27px solid;
     border-image-source: url("img/pastilla.png");
     border-image-slice: 27;
     padding: 1%;
-    width: 40%;
     margin: 2%;
-    position: absolute;
-    top: 0%;
-    margin-top: 170px;
-    right: 0px;
 }
 .caja5{
     border: silver 20px solid;
     border-width: 50px 80px 20px 80px;
     border-image-source: url("img/ventana.png");
     border-image-slice: 50 80 20 80;
-    width: 40%;
     margin: 2%;
-    position: absolute;
-    top: 0%;
-    margin-top: 370px;
-    right: 0px;
 }
 .caja6{
     border: silver 40px solid;
     border-image-source: url("img/hormigas.png");
     border-image-slice: 70;
     border-image-repeat: stretch;
-    width: 40%;
     margin: 2%;
-    position: absolute;
-    top: 0%;
-    margin-top: 650px ;
-    right: 0px;
 }
 .derecha{
-    
-    
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 40%;
+    margin-right: 50px;
 }
 
 pre{
