@@ -29,6 +29,7 @@
     margin: 2%;
     position: absolute;
     top: 0px;
+    margin-top: 35px;
     right: 0px;
 }
 .caja4{
@@ -39,7 +40,8 @@
     width: 40%;
     margin: 2%;
     position: absolute;
-    top: 15%;
+    top: 0%;
+    margin-top: 170px;
     right: 0px;
 }
 .caja5{
@@ -50,7 +52,8 @@
     width: 40%;
     margin: 2%;
     position: absolute;
-    top: 35%;
+    top: 0%;
+    margin-top: 370px;
     right: 0px;
 }
 .caja6{
@@ -61,16 +64,13 @@
     width: 40%;
     margin: 2%;
     position: absolute;
-    top: 65%;
+    top: 0%;
+    margin-top: 650px ;
     right: 0px;
 }
-.derecha{
-    width: 40%;
+/* .derecha{
     margin: 2%;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
+} */
 
 pre{
     border: 1.5px solid blue;
