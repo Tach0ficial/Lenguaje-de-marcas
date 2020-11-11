@@ -1,0 +1,60 @@
+.negro {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.negro li{
+    float: left;
+}
+
+.negro li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.negro li a:hover{
+    background-color: grey;
+}
+
+.rojo {
+    background-color: red;
+    
+}
+
+h1 {
+    text-align: center;
+}
+.descripcion{
+    width: 75%;
+    float: right;
+}
+img{
+    float: left ;
+}
+.datos{
+    width: 25%;
+    float: left;
+}
+.listas{
+    float: left;
+    margin-top: 20px;
+    padding: 0 20px;
+    text-align: justify;
+    width: 25%;
+    display: block;
+    text-decoration: none;
+}
+.parrafos{
+    
+}
+body{
+    margin: 0 auto;
+    width: 80%;
+   
+}
