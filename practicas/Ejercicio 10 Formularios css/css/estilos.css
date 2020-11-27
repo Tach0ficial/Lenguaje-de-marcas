@@ -1,0 +1,82 @@
+header {
+    background-image: url("../img/Banner-pizza.jpg");
+}
+header h1{
+    padding: 70px;
+    color: white;
+    text-shadow: 2px 2px 1px #000;
+    padding-left: 265px;
+    font-size: 30pt;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    background-color: grey;
+}
+
+section{
+    width: 70%;
+    float: left;
+}
+section h1{
+    background-color: cornsilk;
+    text-align: center;
+    text-shadow: 1px 1.2px grey;
+    width: 100%;
+}
+.cliente{
+    float: left;
+    width: 45%;
+    margin-right: 1%;
+}
+.cliente input{
+    width: 50%;
+}
+.pedido{
+    float: left;
+	width: 45%;
+}
+aside{
+    width: 25%;
+    float: right;
+    border-left: 2px solid black;
+    height: 400px;
+    padding-left: 10px;
+}
+.botones{
+    padding-top: 2%;
+    clear: left;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 15px 15px 15px 0px;
+}
+footer p{
+    padding: 0 20px;
+}
+

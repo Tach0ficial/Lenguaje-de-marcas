@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Carlos Hidalgo Risco">
+    <meta name="description" content="Ejercicio 9: formularios">
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="utf-8" />
+    <title>Ejercicio 9: formularios</title>
+</head>
+<body>
+    <h1>Controles de formularios</h1>
+    <form action="#" method="GET"></form>
+    <fieldset>
+        <legend>Datos personales</legend>
+         <p><label for="fecha_control">Nombre: </label>
+        <input type="text" name="nombre">
+         <p><label for="fecha_control">Correo electrónico: </label>
+        <input type="email" name="email">
+         <p><label for="fecha_control">URL: </label>
+        <input type="url" name="url" placeholder="Escribe la URL de tu página">
+         <p><label for="ciudad_control">Ciudad </label>
+        <select name="ciudades" >
+            <option value="CO">Córdoba</option>
+            <option value="SE" selected>Sevilla</option>
+            <option value="MA">Málaga</option>
+            <option value="AL">Almería</option>
+            <option value="GR">Granada</option>
+            <option value="HU">Huelva</option>
+            <option value="CA">Cádiz</option>
+            <option value="JA">Jaén</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Otros datos</legend>
+         <p><label for="fecha_control">Fecha: </label>
+        <input type="date" name="fecha"></p>
+         <p><label for="time_control">Tiempo: </label>
+        <input type="time" name="tiempo"></p>
+         <p><label for="fecha_hora_control">Fecha y hora: </label>
+        <input type="datetime" name="fecha_hora"></p>
+         <p><label for="mes_control">Mes: </label>
+        <input type="month" name="mes"></p>
+         <p><label for="semana_control">Semana: </label>
+        <input type="week" name="semana"></p>
+         <p><label for="numero_control">Numero (min -10, max 10): </label>
+        <input type="number" name="numero" max="10" min="-10"></p>
+         <p><label for="telefono_control">Teléfono: </label>
+        <input type="tel" name="telefono"></p>
+         <p><label for="busqueda_control">Término de búsqueda: </label>
+        <input type="search" name="busqueda"></p>
+         <p><label for="color_control">Color favorito: </label>
+        <input type="color" name="color"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Otros controles</legend>
+         <p><label for="aficiones_control">Aficiones: </label><br>
+            <input type="checkbox" name="Cine">
+            <label for="cine">Cine</label>
+            <input type="checkbox" name="Deporte">
+            <label for="deporte">Deporte</label>
+        </p>
+         <p><label for="aficiones_control">Forma de pago</label><br>
+            <input type="radio" name="pago" value="Visa">
+            <label for="visa_control">Visa</label>
+            <input type="radio" name="pago" value="American Express">
+            <label for="amrican_control">American Express</label>
+            <input type="radio" name="pago" value="MasterCard">
+            <label for="mestercard_control">MasterCard</label>
+        </p>
+    </fieldset>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </p>
+</body>
+</html>

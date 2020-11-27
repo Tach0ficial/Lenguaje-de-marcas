@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Carlos Hidalgo Risco">
+    <meta name="description" content="Actividad 1: Repaso elementos de texto.">
+    <meta name="viewport" content="width=device-width;initial-scale=1.0">
+    <link rel="stylesheet" href="css/Carlos-HR.css">
+    <title>Actividad 1 - Ejercicio 1</title>
+</head>
+<body>
+	<div class="inicio">
+		<div class="encabezado">
+			<h1>Lenguaje De Marcas Y SGI</h1>
+			<h2>Práctica RA2-2 - © Carlos Hidalgo Risco</h2>
+		</div>
+		<hr>
+		<div class="cita">
+			<cite><b>«Los ordenadores están para resolver problemas que antes no existían» <span>- Bill Gates</span></b></cite>
+		</div>
+		<hr>
+		<h3>Introducción a los documentos web</h3>
+		<p>Los lenguajes de marcado para crear documentos web permiten aglutinar textos, sonidos e imágenes ycombinarlos
+			a nuestro gusto. Además, y es aquí donde reside su mayor ventaja, la estructura de los documentos
+			eshipertexto lo que nos permite la introducción de referencias a otros documentos web por medio de los
+			enlaceshipertexto.</p>
+		<p>El lenguaje de marcado para la web fue HTML, el cual se creó en un principio con objetivos divulgativos. No
+			sepensó que la web llegara a ser un área de ocio con carácter multimedia, de modo que, el HTML se creó sin
+			darrespuesta a todos los posibles usos que se le iba a dar y a todos los colectivos de personas que lo
+			utilizarían en unfuturo. Sin embargo, pese a esta deficiente planificación, si que se han ido incorporando
+			modificaciones con el tiempo,a través de diferentes versiones normalizados.</p>
+		<hr>
+			<h3>HTML</h3>
+	</div>
+	<p>Desde la publicación de HTML 4.01, la actividad de estandarización de <abbr title="Hyper Text Management Language">HTML</abbr> se detuvo y el <abbr title="Wide Web Consortium">W3C</abbr> se centró en
+		el desarrollo del estándar XHTML. Por este motivo, en el año 2004, las empresas Apple, Mozilla y Opera mostraron supreocupación por la falta de interés del W3C en HTML y decidieron organizarse en una nueva
+		asociación llamada <abbr title="Hypertext Application Technology Working Group">WHATWG</abbr>.</p>
+	<p>HTML5 introduce además nuevas APIs o <q>Application Programming Interface</q> y se puede definir como un conjuntode subrutinas, especificaciones y métodos que ofrece cierta biblioteca para ser utilizado por otro
+		programa. LasAPIs permiten hacer uso de funciones o infraestructura ya existente en otro programa, ahorrando tiempo yrecursos al evitar programar todo desde el inicio.</p>
+<hr>
+	<h3>XHTML</h3>
+		<p>De forma paralela a su actividad con HTML, W3C ha continuado con la estandarización de XHTML, una versión avanzada de HTML y basada en XML. La primera versión de XHTML se denomina XHTML 1.0 y se publicó el 26
+		deEnero de 2000 (y posteriormente se revisó el 1 de Agosto de 2002).</p>
+		<p>XHTML 1.0 es una adaptación de HTML 4.01 al lenguaje XML, por lo que <strong> mantiene casi todas sus etiquetas y características</strong>, pero añade algunas restricciones y elementos propios de XML. La versión XHTML 1.1 ya 
+		ha sidopublicada en forma de borrador y pretende modularizar XHTML. También ha sido publicado el borrador de XHTML2.0, que iba a suponer un cambio muy importante respecto de las anteriores versiones de XHTML. Sin embargo,
+		<u>esta versión no llegó a publicarse formalmente</u> ya que se abandonó el proyecto en favor de HTML5.</p>
+
+	<h3>Diferencias entre HTML5 y XHTML</h3>
+		<p>En el momento de escribir este documento, podemos decir que XHTML es un proyecto abandonado por el W3C. Solamente publicó las versiones 1.0 y 1.1 para centrarse en el desarrollo de HTML5.Es recomendable 
+			para los desarrolladores web emplear este último cuyo último borrador (versión 5.2) se publico en diciembre del 2017. Las principales diferencias de XHTML y HTML son las siguientes:</p>
+			<ul class="html">
+				<li>HTML deriva de SGML y XHTML deriva de XML.</li>
+				<li>HTML es menos estricto, si hay un error de sintaxis el navegador todavía puede mostrar la página web, mientras que en XHTML hay que seguir estrictamente las reglas de sintaxis para que 
+					el navegador la muestre.</li>
+				<li>HTML está diseñado básicamente para desplegar datos y está centrado en la presentación de esos datos mientrasque XHTML está básicamente enfocado a la distribución de datos.</li> 
+			</ul>
+		<p>Respecto a la sintaxis del lenguaje empleado en un documento web, cuando un documento se transmite con un tipomime XML (<mark>application/xhtml+xml</mark>) es tratado como un documento XML por los navegadores para
+		ser traducido por elprocesador XML. Por tanto el más pequeño error de sintaxis podría provocar que el documento no se visualizara correctamente. Sin embargo, si se transmite con tipo mime HTML (<mark>text/html</mark>)
+		entonces pequeños errores de sintaxispueden pasar por alto y el navegador mostrar el documento correctamente.</p>
+
+	<h3>CSS</h3>
+		<p>CSS es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. 2. Es muy usado para establecer el diseño visual de los documentos 
+		web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcétera. Te puede ayudar a crear tu propio sitio web. 
+		Junto con HTML y JavaScript, CSS es una tecnología usada por muchos sitios web para crear páginas visualmente atractivas, interfaces de usuario para aplicaciones web y GUIs para muchas aplicaciones 
+		móviles (como Firefox OS). 3.</p>
+		
+		<p>Una hoja de estilo se compone de una o varias reglas de estilo, que son las declaraciones de los formatos que adoptará el elemento para el cual va destinada. Las reglas de estilo tienen dos componentes: 
+		el selector, que seleccionará los elementos sobre los que actuará la regla, y la declaración, que establece las propiedades y valores a aplicar sobre los elementos seleccionados. Así, una regla de estilo 
+		adopta la siguiente sintaxis:</p>
+		
+		<pre>selector { propiedadl: valor1; }</pre>
+		
+		<p>En el caso de declararse más de una propiedad/valor, éstas deben estar separadas por punto y coma, como por ejemplo:</p>
+		
+		<pre>selector {<br>propiedad1: valor1;<br>propiedad2: valor2;<br>...<br>}</pre>
+
+		<h3>Formulación molecular</h3>
+		<p>La fórmula molecular expresa el número real de átomos que forman una molécula a diferencia de la fórmula química que es la representación convencional de los elementos que forman una molécula o 
+			compuesto químico. Una fórmula molecular se compone de símbolos y subíndices numéricos; los símbolos corresponden a los elementos que forman el compuesto químico representado y los subíndices son la 
+			cantidad de átomos presentes de cada elemento en el compuesto. Así, por ejemplo, una molécula de ácido sulfúrico, descrita por la fórmula molecular H<sub>2</sub>SO<sub>4</sub> posee dos átomos de hidrógeno, un átomo de 
+			azufre y cuatro átomos de oxígeno. A continuación presentamos las fórmulas químicas de los ácidos:</p>
+		<p class="formulas">
+			ácido clorhídrico &rightarrow; HCl<br>
+			ácido fosfórico &rightarrow; H<sub>3</sub>PO<sub>4</sub></br>
+			ácido sulfuroso &rightarrow; H<sub>2</sub>SO<sub>3</SUB></br>
+			ácido sulfúrico &rightarrow; H<sub>2</sub>SO<sub>4</sub></br>
+			</p>
+	
+</body>

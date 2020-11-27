@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Carlos Hidalgo Risco">
+    <meta name="description" content="Ejercicio 10: formularios">
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta charset="utf-8" />
+    <title>Ejercicio 10: formularios</title>
+</head>
+<body>
+    <header id="pipsas">
+        <h1>Pizzas Artesanas</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Pedidos</a></li>
+             <li><a href="#">Horarios</a></li>
+             <li><a href="#">Productos</a></li>
+             <li><a href="#">Inicio</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Datos de pedidos</h1>
+        <fieldset class="cliente">
+            <legend>Datos cliente</legend>
+            <form name="datos" action="#" method="GET">
+                <label for="nombre">
+                    Nombre:<br> <input type="text" name="nombre">
+                </label>
+                <label for="apellidos">
+                    <br>Apellidos: <br><input type="text" name="apellidos">
+                </label>
+                <label for="telefono">
+                    <br> Teléfono: <br><input placeholder="#########" type="tel" name="telefono">
+                </label>
+                <label for="direcion">
+                    <br> Dirección:<br> <input type="text" name="direcion">
+                </label>
+                <label for="correo">
+                    <br>Correo electrónico:<br> <input type="email" name="correo">
+                </label>
+        </fieldset>
+        <fieldset class="pedido">
+            <legend>Datos pedido</legend>
+            <label for="entrega">
+                Entrega <br>
+                <input type="radio" name="entrega" value="Domicilio"> Domicilio <br>
+                <input type="radio" name="entrega" value="Local"> Local<br>
+            </label>
+            <label for="pizzas">
+                Pizzas<br>
+                <input type="checkbox" name="entrega" value="barbacoa"> Barbacoa <br>
+                <input type="checkbox" name="entrega" value="peperoni"> Peperoni<br>
+                <input type="checkbox" name="entrega" value="4quesos"> 4 Quesos<br>
+            </label>
+            <label for="pizzas">
+                Entrega<br>
+                <select name="entrega" id="">
+                    <option value="local">Local</option>
+                    <option value="Domicilio">Domicilio</option>
+                </select>
+            </label>
+        </fieldset>
+        <div class="botones">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </div>
+        
+    </form>
+    </section>
+    <aside>
+        <h1>Novedades</h1>
+        <p>Pedidos a domicilio sin cargo.</p>
+        <p>Nuevas instalaciones</p>
+    </aside>
+    <footer>
+        <p>Desarrollo web estatico se distribuye bajo la licencia Creative Commons Atribución-NoComercial-CompartirIgual 3.0 Unported</p>
+    </footer>
+</body>
+</html>
