@@ -32,6 +32,40 @@ nav li a {
 nav li a:hover{
     background-color: grey;
 }
+#barra > ul {
+    list-style-type: none;
+    margin-right: 3em;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#barra > ul > li{
+    float: right;
+}
+#barra li > ul{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+}
+#barra li:hover > ul{
+    display: block;
+}
+#barra li ul li{
+    position: relative;
+}
+#barra li ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    right: 2.5em;
+    position: relative;
+}
+#barra ul > li> ul > li >a:hover{
+    
+}
+
 
 section{
     width: 70%;
