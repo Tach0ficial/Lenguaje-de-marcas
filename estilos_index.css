@@ -2,9 +2,13 @@ h1{
     text-align: center;
     font-weight: bold;
     font-size: 250%;
+    margin: 20px;
 }
 body{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin:auto;
     width: 50%;
+}
+.rojo{
+    background-color: red transparent;
+    
 }
