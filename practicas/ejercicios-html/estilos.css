@@ -1,0 +1,29 @@
+body{
+    background: black;
+    
+}
+
+.uno{
+    background: red;
+    width: 25%;
+    float: left;
+    margin: 5px;
+    border: 2px solid white;
+    padding: 3px;
+}
+.dos{
+    background: blue;
+    width: 25%;
+    float: left;
+    margin: 5px;
+    border: 2px solid white;
+    padding: 3px;
+}
+.tres{
+    background: green;
+    width: 25%;
+    float: left;
+    margin: 5px;
+    border: 2px solid white;
+    padding: 3px;
+}

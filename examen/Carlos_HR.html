@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Carlos Hidalgo Risco">
+    <meta name="description" content="EXP1-RA2- HTML-CSS">
+    <link rel="stylesheet" href="css/Carlos_HR.css">
+    <meta charset="utf-8" />
+    <title>EXP1-RA2- HTML-CSS</title>
+</head>
+<body>
+    <div class="centrado">
+    <header>
+        <h1> Mi Sitio Web - Carlos Hidalgo Risco</h1>
+    </header>
+    <nav>
+        <ul>
+            <li id="izquierda"><a href="#">Inicio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sobre mí</a>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <h2>Lorem ipsum dolor sit amet</h2>
+        <img src="./imagenes/logoIpsum.png" alt="Logo Ip sum">
+        <p> <span class="subrayado">Lorem Ipsum</span> dolor sit amet es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo <span class="subrayado">Aldus PageMaker</span> , el cual incluye versiones de Lorem Ipsum.</p>
+        <hr>
+        <a href="#">Seguir leyendo...</a>
+        <h2>Tabla</h2>
+        <table>
+            <tr>
+                <th>cabecera 1</th>
+                <th>cabecera 2</th>
+                <th>cabecera 3</th>
+            </tr>
+            <tr>
+                <td rowspan="2">A1, A2</td>
+                <td colspan="2">B1, C1</td>
+            </tr>
+            <tr>
+                <td>B2</td>
+                <td>C2</td>
+            </tr>
+            <tr>
+                <th colspan="3" >Pie de tabla</th>
+            </tr>
+        </table>
+        <br>
+        <a href="#">Seguir leyendo...</a>
+    </section>
+    <aside>
+        <h2>Sobre mí</h2>
+        <form action="#" method="post">
+        <fieldset>
+            <legend>Datos Contacto</legend>
+            <Label for="nombre">
+                Nombre: <br>  <input type="text" name="nombre" id="nombre">
+            </Label><br>
+            <Label for="apellidos">
+                Apellidos: <br> <input type="text" name="apellidos" id="apellidos">
+            </Label><br>
+            <Label for="correo">
+                Correo: <br> <input type="email" name="correo" id="correo">
+            </Label>
+        </fieldset>
+        <fieldset>
+            <legend>Otros Datos</legend>
+            ¿Estudias? <br>
+            <label for="no"><input type="radio" id="no" name="estudias">No</label> <br>
+            <label for="si"><input id="si" type="radio" name="estudias">Si</label> <br>
+            Aficiones: <br>
+            <label for="deporte"><input id="deporte" type="checkbox" name="aficiones">Deporte</label> <br>
+            <label for="cine"><input id="cine" type="checkbox" name="aficiones">Cine</label> <br>
+            <label for="lectura"><input id="lectura" type="checkbox" name="aficiones">Lectura</label> <br>
+            Pais<br>
+            <select name="pais" id="pais">
+                <option value="españa">España</option>
+                <option value="portugal">Portugal</option>
+                <option value="francia">Francia</option>
+            </select>
+        </fieldset>
+        <input class="btn" type="reset" value="Borrar">
+        <input class="btn" type="submit" value="Enviar">
+        </form>
+    </aside>
+    </div>
+    <footer>
+        <p> <a href="https://tach0ficial.github.io/Lenguaje-de-marcas/" target="_blank">(c) Carlos Hidalgo Risco</a> </p>
+    </footer>
+</body>
+</html>

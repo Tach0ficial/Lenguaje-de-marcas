@@ -1,0 +1,170 @@
+@font-face{
+    font-family: "honeyday";
+    src: url("../fuentes/Honeyday.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+/* cuerpo del documento */
+body{
+    background-color: Beige ;
+    color: MediumBlue;
+    font-size: 10pt;
+    font-family: verdana,sans-serif;
+}
+
+/* cabezera */
+header{
+    height: 100px;
+    width: 90%;
+    background-color: #233c9b;
+    background-image: url("../imagenes/cabecera.gif");
+}
+header h1 {
+    font-family: Honeyday;
+    font-size: 40pt;
+    color: gold;
+    text-shadow: 2px 2px gray;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+/* menu */
+nav ul {
+    list-style-type: none;
+    width: 90%;
+    height: 50px;
+    margin-top: 5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: navy;
+}
+nav li {
+    float: left;
+    margin: 10px 5px 10px 0px;
+    border: 2px solid darkgrey;
+    background-color: MediumBlue;
+    color: LightSkyBlue;
+    font-weight: bold;
+}
+nav li a {
+    display: block;
+    color: LightSkyBlue;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: white;
+    color: orange;
+}
+
+#izquierda{
+    margin-left: 10px;
+}
+
+
+/* contenido */
+section{
+    width: 70%;
+    float: left;
+    margin: 0;
+    background-color: white;
+    border-radius: 20px;
+    width: 60%;
+    padding: 20px;
+}
+section h2{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: lightblue;
+    color: midnightblue;
+    width: 95%;
+    border-radius: 20px;
+    padding: 5px;
+}
+section p {
+    color: mediumblue;
+}
+section img {
+    float: left;
+    margin-left: 20px;
+    margin-right: 5px;
+    border: 2px solid black;
+}
+table{
+    background-color: #CEDBF9;
+    color: darkgray;
+    font-family: arial;
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    border: 2px inset white;
+    width: 95%;
+}
+table th{
+    border: 1px solid white;
+}
+table td{
+    background-color: aliceblue;
+    border: 1px solid white;
+    color: blue;
+    text-align: center;
+}
+
+
+/* formulario de la parte derecha */
+aside{
+    width: 32%;
+    float: right;
+    border-left:  azure;
+    padding-left: 10px;
+    color: mediumblue;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0;
+}
+aside h2  {
+    background-color: lightblue;
+    color: midnightblue;
+    width: 95%;
+    padding: 5px;
+}
+form .btn{
+    float: right;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+form{
+    width: 90%;
+}
+
+/* Pie de pagina */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    padding: 15px 15px 15px 0px;
+    height: 60px;
+}
+footer p{
+    text-align: center;
+    background-color: lightblue;
+    border: solid 2px blue;
+    padding: 0 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+}
+.centrado{
+    margin: auto;
+    width: 80%;
+}
+.subrayado{
+    font-weight: bold;
+    text-decoration: underline red;
+}
