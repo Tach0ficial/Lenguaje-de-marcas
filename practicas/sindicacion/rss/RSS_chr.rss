@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Noticias de Valorant</title>
+        <link>http://www.iesgrancapitan.org</link>
+        <description>
+            Pagina de noticias de VALORANT.
+        </description>
+        <managingEditor>a20hirica@grancapitan.org (carlos)</managingEditor>
+        <category>Desarrollo de aplicaciones</category>
+        <image>
+            <url>https://media.vandal.net/i/1200x630/4-2020/20204271333472_2.jpg</url>
+            <title>Valorant News</title>
+            <link>https://media.vandal.net/i/1200x630/4-2020/20204271333472_2.jpg</link>
+        </image>
+        <skipDays>
+            <day>Saturday</day>
+            <day>Sunday</day>
+        </skipDays>
+        <skipHours>
+            <hour>0</hour>
+            <hour>1</hour>
+            <hour>2</hour>
+            <hour>3</hour>
+            <hour>4</hour>
+            <hour>5</hour>
+        </skipHours>
+        <pubDate>Thu, 15 Apr 2021 13:00:00 GMT</pubDate>
+        <language>es</language>
+        <item>
+            <title>ESTADO DE LOS AGENTES - FEBRERO DE 2021</title>
+            <link>https://playvalorant.com/es-es/news/dev/state-of-the-agents-feb-2021/</link>
+            <description>
+            ¡Hola, amigos y amigas!
+
+            Al habla John Gosicki, del equipo de creación de personajes. He venido a echarle un vistazo con vosotros al presente y al futuro de los agentes. Nos saltamos la actualización de enero, ¡pero hemos vuelto! Vamos al tema. La última vez hablamos sobre dos temas importantes: los controladores y algunos guiños a Yoru, que ya se ha incorporado al elenco y anda pegando tiros por el campo de batalla. o_o
+
+            Ahora que los cambios de Brimstone y Omen han llegado al juego con la versión 2.0, parece que estos dos agentes van encontrando un equilibrio más saludable. En este momento, ambos son opciones más viables que cuentan con puntos fuertes y débiles particulares.
+
+            Nos queda una controladora con la que lidiar.
+            </description>
+            <!-- fecha de publicacion -->
+            <pubDate>Thu, 15 Apr 2021 13:00:00 GMT</pubDate>
+            <!-- elemento multimedia -->
+            <enclosure url="https://www.techgames.com.mx/wp-content/uploads/2020/06/VALORANT-arte.jpg" 
+            length="78645" type="image/jpg" />
+            <author>a20hirica@grancapitan.org (carlos)</author>
+            <source url="https://playvalorant.com/es-es/news/">playvalorant.com</source>
+        </item>
+        <item>
+            <title>PREGÚNTALE A VALORANT - 11 DE FEBRERO</title>
+            <link>https://playvalorant.com/es-es/news/dev/ask-valorant-feb-11/</link>
+            <description>
+            Respondiendo preguntas de la comunidad.
+            </description>
+            <!-- fecha de publicacion -->
+            <pubDate>Thu, 15 Apr 2021 13:00:00 GMT</pubDate>
+            <!-- elemento multimedia -->
+            <enclosure url="https://www.techgames.com.mx/wp-content/uploads/2020/06/VALORANT-arte.jpg" 
+            length="78645" type="image/jpg" />
+            <author>a20hirica@grancapitan.org (carlos)</author>
+            <source url="https://playvalorant.com/es-es/news/">playvalorant.com</source>
+        </item>
+        <item>
+            <title>NOTAS DE LA VERSIÓN 2.02 DE VALORANT</title>
+            <link>https://playvalorant.com/es-es/news/game-updates/valorant-patch-notes-2-02/</link>
+            <description>Esta es la versión en la que empezamos con los ajustes a la precisión al disparar corriendo, que parece no estar bien equilibrada ahora mismo. Como ya hemos mencionado, nos lo vamos a tomar con calma y estamos muy dispuestos a intervenir si no estáis cómodos con los cambios.</description>
+            <!-- fecha de publicacion -->
+            <pubDate>Thu, 15 Apr 2021 13:00:00 GMT</pubDate>
+            <!-- elemento multimedia -->
+            <enclosure url="https://as01.epimg.net/meristation/imagenes/2020/05/29/noticias/1590766570_867660_1590767148_portada_normal.jpg" 
+            length="78645" type="image/jpg" />
+            <author>a20hirica@grancapitan.org (carlos)</author>
+            <source url="https://playvalorant.com/es-es/news/">playvalorant.com</source>
+        </item>
+        <item>
+            <title>CAMBIOS AL MODO COMPETITIVO: VERSIÓN 2.02 Y POSTERIORES</title>
+            <link>https://playvalorant.com/es-es/news/game-updates/competitive-changes-2-02-and-what-s-next/</link>
+            <description>¡Buenas! Soy Jon "Riot EvrMoar" Walker y hoy os traigo más información sobre los cambios al modo competitivo de la versión 2.02 y sobre otros cambios a las clasificatorias en los que estamos trabajando para lo que queda del Episodio 2.</description>
+            <!-- fecha de publicacion -->
+            <pubDate>Thu, 15 Apr 2021 13:00:00 GMT</pubDate>
+            <!-- elemento multimedia -->
+            <enclosure url="https://esports.as.com/2020/06/22/clasificatorias/Rangos-VALORANT_1366673398_411640_1440x810.jpg" 
+            length="78645" type="image/jpg" />
+            <author>a20hirica@grancapitan.org (carlos)</author>
+            <source url="https://playvalorant.com/es-es/news/">playvalorant.com</source>
+        </item>
+    </channel>
+</rss>
