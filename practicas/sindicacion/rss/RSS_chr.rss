@@ -56,8 +56,8 @@
             <!-- fecha de publicacion -->
             <pubDate>Thu, 15 Apr 2021 13:00:00 GMT</pubDate>
             <!-- elemento multimedia -->
-            <enclosure url="https://www.techgames.com.mx/wp-content/uploads/2020/06/VALORANT-arte.jpg" 
-            length="78645" type="image/jpg" />
+            <enclosure url="https://youtu.be/g8amyzDHOKw" 
+            length="78645" type="video/mp4" />
             <author>a20hirica@grancapitan.org (carlos)</author>
             <source url="https://playvalorant.com/es-es/news/">playvalorant.com</source>
         </item>
