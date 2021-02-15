@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Noticias de Valorant</title>
-        <link>http://www.iesgrancapitan.org</link>
+        <link>https://playvalorant.com</link>
         <description>
             Pagina de noticias de VALORANT.
         </description>
@@ -11,7 +11,7 @@
         <image>
             <url>https://media.vandal.net/i/1200x630/4-2020/20204271333472_2.jpg</url>
             <title>Valorant News</title>
-            <link>https://media.vandal.net/i/1200x630/4-2020/20204271333472_2.jpg</link>
+            <link>https://playvalorant.com</link>
         </image>
         <skipDays>
             <day>Saturday</day>
