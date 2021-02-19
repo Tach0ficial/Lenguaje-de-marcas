@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom"
+	  xml:lang="es"
+	  xml:base="https://tach0ficial.github.io/">
+
+	<id>https://tach0ficial.github.io/<id>
+
+	<title>Valorant News</title>
+	<updated>2021-02-19T18:30:02Z</updated>
+
+	<link rel="alternate" href="https://playvalorant.com/es-es"/>
+
+	<author>
+		<name>Carlos Hidalgo Risco</name>
+		<email>a20hirica@iesgrancapitan.org</email>
+	</author>
+
+	<category term="Valorant News"/>
+	<rights>&copy; 2021 Carlos Hidalgo Risco</rights>
+
+	<icon>img/icon.jpg</icon>
+	<logo>img/logo.jpg</logo>
+
+
+	<entry>
+		<title>NOTAS DE LA VERSIÓN 2.02 DE VALORANT</title>
+		<id>https://tach0ficial.github.io/</id>
+		<updated>2021-02-19T18:30:02Z</updated>
+		<summary>Esta es la versión en la que empezamos con los ajustes a la precisión al disparar corriendo, que parece no estar bien equilibrada ahora mismo. Como ya hemos mencionado, nos lo vamos a tomar con calma y estamos muy dispuestos a intervenir si no estáis cómodos con los cambios.</summary>
+		<author>
+			<name>Carlos Hidalgo Risco</name>
+			<email>a20hirica@iesgrancapitan.org</email>
+		</author>
+		<source>https://playvalorant.com/es-es/news/game-updates/valorant-patch-notes-2-02/</source>
+	</entry>
+
+<entry>
+		<title>CAMBIOS AL MODO COMPETITIVO: VERSIÓN 2.02 Y POSTERIORES</title>
+		<link href="https://playvalorant.com/es-es/news/game-updates/competitive-changes-2-02-and-what-s-next/"/>
+		<id>https://tach0ficial.github.io/</id>
+		<updated>2021-02-19T18:30:02Z</updated>
+		<summary>¡Buenas! Soy Jon "Riot EvrMoar" Walker y hoy os traigo más información sobre los cambios al modo competitivo de la versión 2.02 y sobre otros cambios a las clasificatorias en los que estamos trabajando para lo que queda del Episodio 2.</summary>
+		<author>
+			<name>Carlos Hidalgo Risco</name>
+			<email>a20hirica@iesgrancapitan.org</email>
+		</author>
+		<content type="xhtml">
+ 		<div>
+			<h1>CAMBIOS AL MODO COMPETITIVO</h1>
+		</div>
+		</content>
+		<source>https://playvalorant.com/es-es</source>
+	</entry>
+	<entry>
+		<title>ESTADO DE LOS AGENTES - FEBRERO DE 2021</title>
+		<link href="https://playvalorant.com/es-es/news/dev/state-of-the-agents-feb-2021/"/>
+		<id>https://tach0ficial.github.io/</id>
+		<updated>2021-02-19T18:30:02Z</updated>
+		<summary>
+			¡Hola, amigos y amigas!
+
+            Al habla John Gosicki, del equipo de creación de personajes. He venido a echarle un vistazo con vosotros al presente y al futuro de los agentes. Nos saltamos la actualización de enero, ¡pero hemos vuelto! Vamos al tema. La última vez hablamos sobre dos temas importantes: los controladores y algunos guiños a Yoru, que ya se ha incorporado al elenco y anda pegando tiros por el campo de batalla. o_o
+
+            Ahora que los cambios de Brimstone y Omen han llegado al juego con la versión 2.0, parece que estos dos agentes van encontrando un equilibrio más saludable. En este momento, ambos son opciones más viables que cuentan con puntos fuertes y débiles particulares.
+
+            Nos queda una controladora con la que lidiar.
+		</summary>
+		<author>
+			<name>Carlos Hidalgo Risco</name>
+			<email>a20hirica@iesgrancapitan.org</email>
+		</author>
+		<source>https://playvalorant.com/es-es/news/dev/state-of-the-agents-feb-2021/</source>
+	</entry>
+
+	<entry>
+		<title>PREGÚNTALE A VALORANT - 11 DE FEBRERO</title>
+		<id>https://tach0ficial.github.io/</id>
+		<updated>2021-02-19T18:30:02Z</updated>
+		<summary>Respondiendo preguntas de la comunidad.</summary>
+		<author>
+			<name>Carlos Hidalgo Risco</name>
+			<email>a20hirica@iesgrancapitan.org</email>
+		</author>
+		<link rel="enclosure"
+		 xml:lang="es"
+		 href="https://youtu.be/g8amyzDHOKw" 
+     length="78645" type="video/mp4"
+		 title="La ronda // Valorant - Adelanto de la experiencia de juego"
+		 hreflang="es" />
+		<source>https://playvalorant.com/es-es/news/dev/ask-valorant-feb-11/</source>
+	</entry>
+
+	
+	
+</feed>
