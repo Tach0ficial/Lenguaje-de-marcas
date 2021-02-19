@@ -46,7 +46,7 @@
 			<email>a20hirica@iesgrancapitan.org</email>
 		</author>
 		<content type="xhtml">
-			<div xmlns="http://www.w3.org/1999/xhtml">
+			<div>
 				<h1>CAMBIOS AL MODO COMPETITIVO</h1>
 			</div>
 		</content>
@@ -86,7 +86,8 @@
 		<link rel="enclosure"
 		 xml:lang="es"
 		 href="https://tach0ficial.github.io/Lenguaje-de-marcas/practicas/sindicacion/atom/img/videoplayback.mp4" 
-     length="78645" type="video/mp4"
+     length="78645" 
+		 type="video/mp4"
 		 title="La ronda // Valorant - Adelanto de la experiencia de juego"
 		 hreflang="es" />
 		<source>https://playvalorant.com/es-es/news/dev/ask-valorant-feb-11/</source>
