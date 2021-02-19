@@ -45,9 +45,10 @@
 			<name>Carlos Hidalgo Risco</name>
 			<email>a20hirica@iesgrancapitan.org</email>
 		</author>
- 		<div>
-			<h1>CAMBIOS AL MODO COMPETITIVO</h1>
-		</div>
+		<content type="xhtml">
+			<div>
+				<h1>CAMBIOS AL MODO COMPETITIVO</h1>
+			</div>
 		</content>
 		<source>https://playvalorant.com/es-es</source>
 	</entry>
