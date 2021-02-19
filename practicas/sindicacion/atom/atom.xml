@@ -4,8 +4,8 @@
 	  xml:lang="es"
 	  xml:base="https://tach0ficial.github.io/">
 
-	<id>c48da9ec-72a8-11eb-9439-0242ac130002<id>
-
+	<id>c48da9ec-72a8-11eb-9439-0242ac130002</id>
+	
 	<title>Valorant News</title>
 	<updated>2021-02-19T18:30:02Z</updated>
 
@@ -90,5 +90,4 @@
 		 hreflang="es" />
 		<source>https://playvalorant.com/es-es/news/dev/ask-valorant-feb-11/</source>
 	</entry>
-
 </feed>
