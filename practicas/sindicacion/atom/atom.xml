@@ -32,6 +32,12 @@
 			<name>Carlos Hidalgo Risco</name>
 			<email>a20hirica@iesgrancapitan.org</email>
 		</author>
+		<link rel="enclosure"
+		 xml:lang="es"
+		 title="Canción de Valorant"
+		 type="audio/mp3"
+		 hreflang="es"
+		 href="Lenguaje-de-marcas/practicas/sindicacion/atom/img/counter-strike-3.mp3" />
 		<source>https://playvalorant.com/es-es</source>
 	</entry>
 
